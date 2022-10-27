@@ -1,0 +1,315 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                
+            }
+        </script>
+        <link rel="stylesheet" href="./css/index.css">
+    </head>
+    <body>
+        <div
+            class=
+                "w-100 min-h-screen flex items-center flex-col justify-center gap-4">
+            <div class="p-4 bg-white-100">
+                <div class="text-gray-300 text-xl">
+                    <h1 class="text-gray-900 text-xl text-center">
+                        Buttons
+                    </h1>
+                    <div class="flex gap-[1em] justify-center mt-4">
+                        <button class="bg-blue-600 border-b-4 transition-all border-blue-800 py-1 px-6 rounded text-[16px] font-bold text-white hover:bg-blue-800 hover:text-white/80 disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:bg-blue-600 disabled:text-white">
+                            Primary
+                        </button>
+
+                        <button class="bg-gray-600 border-b-4 transition-all border-gray-800 py-1 px-6 rounded text-[16px] font-bold text-white hover:bg-gray-800 hover:text-white/80 disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:bg-gray-600 disabled:text-white" >
+                            Secondary
+                        </button>
+
+                        <button class="bg-red-600 border-b-4 transition-all border-red-800 py-1 px-6 rounded text-[16px] font-bold text-white hover:bg-red-800 hover:text-white/80 disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:bg-red-600 disabled:text-white" >
+                            Danger
+                        </button>
+
+                        <button class="bg-green-600 border-b-4 transition-all border-green-800 py-1 px-6 rounded text-[16px] font-bold text-white hover:bg-green-800 hover:text-white/80 disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:bg-green-600 disabled:text-white" >
+                            Success
+                        </button>
+
+                        <button class="bg-yellow-600 border-b-4 transition-all border-yellow-800 py-1 px-6 rounded text-[16px] font-bold text-white hover:bg-yellow-800 hover:text-white/80 disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:bg-yellow-600 disabled:text-white" >
+                            Warning
+                        </button>
+
+                        <button class="bg-purple-600 border-b-4 transition-all border-purple-800 py-1 px-6 rounded text-[16px] font-bold text-white hover:bg-purple-800 hover:text-white/80 disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:bg-purple-600 disabled:text-white" >
+                            Info
+                        </button>
+
+                        <button class="bg-gray-300 border-b-4 transition-all border-gray-500 py-1 px-6 rounded text-[16px] font-bold text-gray-800 hover:bg-gray-500 hover:text-gray-800/80 disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:bg-gray-300 disabled:text-gray-800" >
+                            Light
+                        </button>
+
+                        <button class="bg-gray-800 border-b-4 transition-all border-black py-1 px-6 rounded text-[16px] font-bold text-white hover:bg-black hover:text-white/80 disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:bg-gray-800 disabled:text-white" >
+                            Dark
+                        </button>
+                    </div>
+
+                    <h1 class="text-gray-900 text-xl text-center mt-8">
+                        Buttons (Disabled)
+                    </h1>
+                    <div class="flex gap-[1em] justify-center mt-4">
+                        <button class="bg-blue-600 border-b-4 transition-all border-blue-800 py-1 px-6 rounded text-[16px] font-bold text-white hover:bg-blue-800 hover:text-white/80 disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:bg-blue-600 disabled:text-white"
+                            
+                            disabled
+                        >
+                            Primary
+                        </button>
+
+                        <button class="bg-gray-600 border-b-4 transition-all border-gray-800 py-1 px-6 rounded text-[16px] font-bold text-white hover:bg-gray-800 hover:text-white/80 disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:bg-gray-600 disabled:text-white"
+                            
+                            disabled
+                        >
+                            Secondary
+                        </button>
+
+                        <button class="bg-red-600 border-b-4 transition-all border-red-800 py-1 px-6 rounded text-[16px] font-bold text-white hover:bg-red-800 hover:text-white/80 disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:bg-red-600 disabled:text-white"
+                            
+                            disabled
+                        >
+                            Danger
+                        </button>
+
+                        <button class="bg-green-600 border-b-4 transition-all border-green-800 py-1 px-6 rounded text-[16px] font-bold text-white hover:bg-green-800 hover:text-white/80 disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:bg-green-600 disabled:text-white"
+                            
+                            disabled
+                        >
+                            Success
+                        </button>
+
+                        <button class="bg-yellow-600 border-b-4 transition-all border-yellow-800 py-1 px-6 rounded text-[16px] font-bold text-white hover:bg-yellow-800 hover:text-white/80 disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:bg-yellow-600 disabled:text-white"
+                            
+                            disabled
+                        >
+                            Warning
+                        </button>
+
+                        <button class="bg-purple-600 border-b-4 transition-all border-purple-800 py-1 px-6 rounded text-[16px] font-bold text-white hover:bg-purple-800 hover:text-white/80 disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:bg-purple-600 disabled:text-white"
+                            
+                            disabled
+                        >
+                            Info
+                        </button>
+
+                        <button class="bg-gray-300 border-b-4 transition-all border-gray-500 py-1 px-6 rounded text-[16px] font-bold text-gray-800 hover:bg-gray-500 hover:text-gray-800/80 disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:bg-gray-300 disabled:text-gray-800"
+                            
+                            disabled
+                        >
+                            Light
+                        </button>
+
+                        <button class="bg-gray-800 border-b-4 transition-all border-black py-1 px-6 rounded text-[16px] font-bold text-white hover:bg-black hover:text-white/80 disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:bg-gray-800 disabled:text-white"
+                            
+                            disabled
+                        >
+                            Dark
+                        </button>
+                    </div>
+
+                    <h1 class="text-gray-900 text-xl text-center mt-8">
+                        Outline Buttons
+                    </h1>
+
+                    <div class="flex gap-[1em] justify-center mt-4">
+                        <button class="bg-transparent border-b-4 transition-all border-blue-600 py-1 px-6 rounded text-[16px] font-bold text-blue-600 hover:bg-blue-600 hover:text-white/80 disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:bg-transparent disabled:text-blue-600" >
+                            Primary
+                        </button>
+
+                        <button class="bg-transparent border-b-4 transition-all border-gray-600 py-1 px-6 rounded text-[16px] font-bold text-gray-600 hover:bg-gray-600 hover:text-white/80 disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:bg-transparent disabled:text-gray-600" >
+                            Secondary
+                        </button>
+
+                        <button class="bg-transparent border-b-4 transition-all border-red-600 py-1 px-6 rounded text-[16px] font-bold text-red-600 hover:bg-red-600 hover:text-white/80 disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:bg-transparent disabled:text-red-600" >
+                            Danger
+                        </button>
+
+                        <button class="bg-transparent border-b-4 transition-all border-green-600 py-1 px-6 rounded text-[16px] font-bold text-green-600 hover:bg-green-600 hover:text-white/80 disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:bg-transparent disabled:text-green-600" >
+                            Success
+                        </button>
+
+                        <button class="bg-transparent border-b-4 transition-all border-yellow-600 py-1 px-6 rounded text-[16px] font-bold text-yellow-600 hover:bg-yellow-600 hover:text-white/80 disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:bg-transparent disabled:text-yellow-600" >
+                            Warning
+                        </button>
+
+                        <button class="bg-transparent border-b-4 transition-all border-purple-600 py-1 px-6 rounded text-[16px] font-bold text-purple-600 hover:bg-purple-600 hover:text-white/80 disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:bg-transparent disabled:text-purple-600" >
+                            Info
+                        </button>
+
+                        <button class="bg-transparent border-b-4 transition-all border-gray-300 py-1 px-6 rounded text-[16px] font-bold text-gray-300 hover:bg-gray-300 hover:text-gray-800/80 disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:bg-transparent disabled:text-gray-300" >
+                            Light
+                        </button>
+
+                        <button class="bg-transparent border-b-4 transition-all border-gray-800 py-1 px-6 rounded text-[16px] font-bold text-gray-800 hover:bg-gray-800 hover:text-white/80 disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:bg-transparent disabled:text-gray-800" >
+                            Dark
+                        </button>
+                    </div>
+
+                    <h1 class="text-gray-900 text-xl text-center mt-8">
+                        Outline Buttons (Disabled)
+                    </h1>
+
+                    <div class="flex gap-[1em] justify-center mt-4">
+                        <button class="bg-transparent border-b-4 transition-all border-blue-600 py-1 px-6 rounded text-[16px] font-bold text-blue-600 hover:bg-blue-600 hover:text-white/80 disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:bg-transparent disabled:text-blue-600"
+                            
+                            disabled
+                        >
+                            Primary
+                        </button>
+
+                        <button class="bg-transparent border-b-4 transition-all border-gray-600 py-1 px-6 rounded text-[16px] font-bold text-gray-600 hover:bg-gray-600 hover:text-white/80 disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:bg-transparent disabled:text-gray-600"
+                            
+                            disabled
+                        >
+                            Secondary
+                        </button>
+
+                        <button class="bg-transparent border-b-4 transition-all border-red-600 py-1 px-6 rounded text-[16px] font-bold text-red-600 hover:bg-red-600 hover:text-white/80 disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:bg-transparent disabled:text-red-600"
+                            
+                            disabled
+                        >
+                            Danger
+                        </button>
+
+                        <button class="bg-transparent border-b-4 transition-all border-green-600 py-1 px-6 rounded text-[16px] font-bold text-green-600 hover:bg-green-600 hover:text-white/80 disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:bg-transparent disabled:text-green-600"
+                            
+                            disabled
+                        >
+                            Success
+                        </button>
+
+                        <button class="bg-transparent border-b-4 transition-all border-yellow-600 py-1 px-6 rounded text-[16px] font-bold text-yellow-600 hover:bg-yellow-600 hover:text-white/80 disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:bg-transparent disabled:text-yellow-600"
+                            
+                            disabled
+                        >
+                            Warning
+                        </button>
+
+                        <button class="bg-transparent border-b-4 transition-all border-purple-600 py-1 px-6 rounded text-[16px] font-bold text-purple-600 hover:bg-purple-600 hover:text-white/80 disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:bg-transparent disabled:text-purple-600"
+                            
+                            disabled
+                        >
+                            Info
+                        </button>
+
+                        <button class="bg-transparent border-b-4 transition-all border-gray-300 py-1 px-6 rounded text-[16px] font-bold text-gray-300 hover:bg-gray-300 hover:text-gray-800/80 disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:bg-transparent disabled:text-gray-300"
+                            
+                            disabled
+                        >
+                            Light
+                        </button>
+
+                        <button class="bg-transparent border-b-4 transition-all border-gray-800 py-1 px-6 rounded text-[16px] font-bold text-gray-800 hover:bg-gray-800 hover:text-white/80 disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:bg-transparent disabled:text-gray-800"
+                            
+                            disabled
+                        >
+                            Dark
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="p-4 bg-white-100">
+                <h1 class="text-gray-900 text-xl text-center">
+                    Input Fields
+                </h1>
+                <div class="flex flex-col gap-[1em] mt-4">
+                    <div class="flex flex-col gap">
+                        <label class="text-gray-900 text-[16px] font-bold text-left" >
+                            Text Input
+                        </label>
+                        <input type="text" class="bg-gray-100 outline-none rounded-md p-2 text-gray-900 text-[16px] font-semibold disabled:opacity-60 disabled:cursor-not-allowed border-b-4 border-gray-400 "
+                            
+                            placeholder="Text Input"
+                            ></input>
+                    </div>
+
+                    <div class="flex flex-col gap">
+                        <label class="text-gray-900 text-[16px] font-bold text-left" >
+                            Text Input (Disabled)
+                        </label>
+                        <input type="text" class="bg-gray-100 outline-none rounded-md p-2 text-gray-900 text-[16px] font-semibold disabled:opacity-70 disabled:cursor-not-allowed border-b-4 border-gray-400 "
+                            
+                            placeholder="Text Input"
+                            disabled
+                            ></input>
+                    </div>
+
+                    <div class="flex flex-col gap">
+                        <label class="text-gray-900 text-[16px] font-bold text-left" >
+                            Text Input (Error)
+                        </label>
+                        <input type="text" class="bg-red-100 outline-none rounded-md p-2 text-red-900 text-[16px] font-semibold disabled:opacity-70 disabled:cursor-not-allowed border-b-4 border-red-600"
+                            
+                            placeholder="Text Input"
+                            ></input>
+                    </div>
+
+                    <div class="flex flex-col gap">
+                        <label class="text-gray-900 text-[16px] font-bold text-left" >
+                            Text Input (Success)
+                        </label>
+                        <input type="text" class="bg-green-100 outline-none rounded-md p-2 text-green-900 text-[16px] font-semibold disabled:opacity-70 disabled:cursor-not-allowed border-b-4 border-green-600"
+                            
+                            placeholder="Text Input"
+                        ></input>
+                    </div>
+                </div>
+            </div>
+
+            <div class="p-4 bg-white-100">
+                <h1 class="text-gray-900 text-xl text-center">
+                    Text Area
+                </h1>
+                <div class="flex flex-col gap-[1em] mt-4">
+                    <div class="flex flex-col gap">
+                        <label class="text-gray-900 text-[16px] font-bold text-left" >
+                            Text Area
+                        </label>
+                        <textarea class="bg-gray-100 outline-none rounded-md min-w-[300px] p-2 text-gray-900 text-[16px] font-semibold disabled:opacity-60 disabled:cursor-not-allowed border-b-4 border-gray-400 "
+                            
+                            placeholder="Text Area"
+                            ></textarea>
+                    </div>
+
+                    <div class="flex flex-col gap">
+                        <label class="text-gray-900 text-[16px] font-bold text-left" >
+                            Text Area (Disabled)
+                        </label>
+                        <textarea class="bg-gray-100 outline-none rounded-md min-w-[300px] p-2 text-gray-900 text-[16px] font-semibold disabled:opacity-70 disabled:cursor-not-allowed border-b-4 border-gray-400 "
+                            
+                            placeholder="Text Area"
+                            disabled
+                        ></textarea>
+                    </div>
+
+                    <div class="flex flex-col gap">
+                        <label class="text-gray-900 text-[16px] font-bold text-left" >
+                            Text Area (Error)
+                        </label>
+                        <textarea class="bg-red-100 outline-none rounded-md min-w-[300px] p-2 text-red-900 text-[16px] font-semibold disabled:opacity-70 disabled:cursor-not-allowed border-b-4 border-red-600"
+                            
+                            placeholder="Text Area"
+                            ></textarea>
+                    </div>
+
+                    <div class="flex flex-col gap">
+                        <label class="text-gray-900 text-[16px] font-bold text-left" >
+                            Text Area (Success)
+                        </label>
+                        <textarea class="bg-green-100 outline-none rounded-md min-w-[300px] p-2 text-green-900 text-[16px] font-semibold disabled:opacity-70 disabled:cursor-not-allowed border-b-4 border-green-600"
+                            
+                            placeholder="Text Area"
+                            ></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
