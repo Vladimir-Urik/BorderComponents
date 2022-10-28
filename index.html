@@ -311,6 +311,36 @@
                     </div>
                 </div>
             </div>
+
+            <div class="p-4 bg-white-100 flex flex-col gap-4">
+                <h1 class="text-gray-900 text-xl text-center">
+                    Modal:
+                </h1>
+
+                <div class="w-[500px] border-b-4 border-gray-400 rounded px-4 bg-gray-200">     
+                    <div class="pt-4 pb-3 font-semibold text-2xl">
+                        Unsaved changes
+                    </div>
+                    <div class="bg-gray-200 text-sm">
+                       <p>You edit this files, but you didn't save your changes.</p>
+                       <p class="mt-2">Files:</p>
+                       <ul class="list-disc pl-6 text-blue-600">
+                        <li>index.html</li>
+                        <li>style.css</li>
+                       </ul>
+                       <p class="mt-4">Do you want to save them?</p>
+                    </div>
+                    <div class="bg-gray-200 py-2 flex gap-2 justify-end">
+                        <button class="bg-blue-600 border-b-4 transition-all border-blue-800 py-1 px-6 rounded text-[16px] font-bold text-white hover:bg-blue-800 hover:text-white/80 disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:bg-blue-600 disabled:text-white">
+                            Save
+                        </button>
+
+                        <button class="bg-gray-600 border-b-4 transition-all border-gray-800 py-1 px-6 rounded text-[16px] font-bold text-white hover:bg-gray-800 hover:text-white/80 disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:bg-gray-600 disabled:text-white" >
+                            Close
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
 </html>
